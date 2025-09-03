@@ -56,7 +56,7 @@ export default function About() {
             We&apos;re building the most powerful trading bot available — engineered
             for performance, simplicity, and trust. OrbiBot combines advanced
             AI-driven algorithms with an intuitive interface, making it
-            incredibly easy to use, even for beginners. Whether you're a
+            incredibly easy to use, even for beginners. Whether you&apos;re a
             seasoned trader or just starting out, OrbiBot delivers a seamless,
             secure, and high-performance trading experience that adapts to your
             goals.
