@@ -13,24 +13,24 @@ export default function Banner() {
   const buttonRef = useRef<HTMLButtonElement>(null)
   const botRef = useRef<HTMLDivElement>(null)
 
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      // Timeline for sequence
-      const tl = gsap.timeline({ defaults: { ease: "power3.out", duration: 0.7 } })
+useEffect(() => {
+  const ctx = gsap.context(() => {
+    const tl = gsap.timeline({ defaults: { ease: "power4.out", duration: 0.8 } })
 
-      tl.from(headingRef.current, { y: 50, opacity: 0 })
-        .from(subHeadingRef.current, { y: 50, opacity: 0 }, "-=0.5")
-        .from(paragraphsRef.current?.children || [], {
-          y: 30,
-          opacity: 0,
-          stagger: 0.2,
-        })
-        .from(buttonRef.current, { scale: 0.8, opacity: 0 }, "-=0.3")
-        .from(botRef.current, { x: -100, opacity: 0, duration: 1.2 }, "-=1")
-    }, sectionRef)
+    tl.from(headingRef.current, { y: 40, opacity: 0 })
+      .from(subHeadingRef.current, { y: 40, opacity: 0 }, "-=0.5")
+      .from(gsap.utils.toArray(paragraphsRef.current?.children || []), {
+        y: 25,
+        opacity: 0,
+        stagger: 0.15,
+      })
+      .from(buttonRef.current, { scale: 0.9, opacity: 0 }, "-=0.3")
+      .from(botRef.current, { xPercent: -30, opacity: 0, duration: 1 }, "-=0.8")
+  }, sectionRef)
 
-    return () => ctx.revert()
-  }, [])
+  return () => ctx.revert()
+}, [])
+
 
   return (
     <section

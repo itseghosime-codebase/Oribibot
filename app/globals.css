@@ -141,3 +141,8 @@ select:-webkit-autofill:focus {
   transition: background-color 9999s ease-in-out 0s !important;
   color: #fff !important;
 }
+
+/* globals.css */
+.animate-gsap {
+  will-change: transform, opacity;
+}
