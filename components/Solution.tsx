@@ -46,7 +46,7 @@ export default function Solution() {
         </span>
       </h3>
       <p className="text-xl md:text-2xl max-w-3xl font-light tracking-wider mx-auto">
-        Whether you're a hands-on trader, a portfolio expert, a signal provider,
+        Whether you&apos;re a hands-on trader, a portfolio expert, a signal provider,
         or a strategy follower... OrbiBot gives you the tools you need to
         succeed.
       </p>

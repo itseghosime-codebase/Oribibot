@@ -53,7 +53,7 @@ export default function About() {
             Profitability. Simplicity. Speed.
           </h3>
           <p className="about-text text-xl md:text-2xl lg:text-3xl">
-            We’re building the most powerful trading bot available — engineered
+            We&apos;re building the most powerful trading bot available — engineered
             for performance, simplicity, and trust. OrbiBot combines advanced
             AI-driven algorithms with an intuitive interface, making it
             incredibly easy to use, even for beginners. Whether you're a
