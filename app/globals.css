@@ -94,7 +94,16 @@ html {
 .content {
   @apply px-5 md:px-12 lg:px-16 xl:px-24 max-w-[1400px] mx-auto w-full;
 }
-body,
+body{
+    background: linear-gradient(
+    to left,
+    /* #7b3999eb 0%, */ #6f47b5e6 0%,
+    #27659291 30%,
+    #191919b5 98%
+  );
+  @apply min-h-screen font-teko text-white;
+}
+
 main {
   background: linear-gradient(
     to left,
