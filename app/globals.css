@@ -124,7 +124,7 @@ main::after {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
-  @apply absolute z-0 inset-0;
+  @apply absolute z-0 inset-0 opacity-80;
 }
 
 span {
