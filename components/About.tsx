@@ -5,7 +5,7 @@ import React, { useEffect, useRef } from "react"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
-import BotWIthBg from "@/assets/Icons/BOT-BG.svg"
+import BotWIthBg from "@/public/bot.gif"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -62,13 +62,15 @@ export default function About() {
             goals.
           </p>
         </div>
-        <div>
-          <Image
-            src={BotWIthBg}
-            alt="Bot with Background"
-            sizes="100%"
-            className="about-image h-auto w-full max-w-[420px] mx-auto"
-          />
+        <div >
+          <div className="border about-image border-primary p-4 rounded-[55px] mx-auto flex justify-center w-auto max-w-[420px]">
+            <Image
+              src={BotWIthBg}
+              alt="Bot with Background"
+              sizes="100%"
+              className=" h-auto w-full max-w-[420px] rounded-[45px]"
+            />
+          </div>
         </div>
       </div>
     </section>
