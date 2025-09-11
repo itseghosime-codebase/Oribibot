@@ -68,6 +68,7 @@ export default function About() {
               src={BotWIthBg}
               alt="Bot with Background"
               sizes="100%"
+              priority
               className=" h-auto w-full max-w-[420px] rounded-[45px]"
             />
           </div>
